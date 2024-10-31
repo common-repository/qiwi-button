@@ -1,0 +1,130 @@
+/* Стили для кнопки */
+.qiwibtn_table {
+	min-width:510px;
+	width:100%;
+	margin: 20px auto;
+	border: 0;
+	border-collapse: separate !important;
+	vertical-align: top !important;
+}
+.qiwibtn_description {
+	height:100%;
+	text-align: left;
+	border:0;
+	padding:0;
+	vertical-align: top !important;
+}
+.qiwibtn_container{
+	position:relative;
+	border:0;
+	padding:0;
+	float:right;
+	width: 330px;
+	overflow: hidden;
+	height:100%;
+}
+.qiwibtn {
+	background:#ffffff;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(#ffffff,0),color-stop(#eeeeee,1));
+    background:-webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+    background:-moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+    background:-o-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+    background:linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+    white-space:nowrap;
+	text-decoration:none !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	margin:0 !important;
+	height: 60px !important;
+	display: inline-block;
+	position: relative;
+	border: 2px solid #ff9900;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	float: right;
+	clear: both;
+	overflow: hidden;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	border-image: initial;
+}
+.qiwibtn_icon {
+	position: absolute;
+	left: 59px;
+	top: 0px;
+	height: 100%;
+	width: 60px;
+}
+.qiwibtn_icon span{
+    width:54px;
+    height:54px;
+	padding-top: 0;
+	padding-bottom:0;
+    position:absolute;
+    left:-48px;
+    top:0;
+    margin:3px 0;
+    background:transparent url(images/qiwi_logo.png) no-repeat;
+	background-size: cover;
+}
+.qiwibtn_hidden {
+	position: absolute;
+	height: 100%;
+	top: 0px;
+	left: 65px;
+	width: 0px !important;
+	background: #2266bb;
+	text-shadow: 1px 1px 2px #004499;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	color: white !important;
+    font-size:30px;
+	text-align: center;
+	text-indent: 5px;
+	overflow: hidden;
+	line-height: 60px;
+	-webkit-box-shadow: 2px 4px 2px -3px rgba(0,0,0,0.2) inset;
+	   -moz-box-shadow: 2px 4px 2px -3px rgba(0,0,0,0.2) inset;
+			box-shadow: 2px 4px 2px -3px rgba(0,0,0,0.2) inset;
+	-webkit-transition: width 0.2s linear;
+	-moz-transition: width 0.2s linear;
+	-o-transition: width 0.2s linear;
+	transition: width 0.2s linear;
+}
+.qiwibtn_text {
+	display: block;	
+    font-size:30px;
+	text-shadow: 0px 1px 1px rgba(34, 102, 187, 0.3);
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	line-height: 60px;
+	color: #2266bb !important;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	padding-left: 47px;
+	margin: 0 -4px 0 0;
+}
+.qiwibtn:hover{
+    padding-left:150px !important;
+}
+.qiwibtn:hover .qiwibtn_hidden{
+    width:130px !important;
+}
+.qiwibtn:active{
+    position:relative !important;
+    background:#2266bb !important;
+	-webkit-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.2) inset;
+	   -moz-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.2) inset;
+			box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.2) inset;
+}
+.qiwibtn:active .qiwibtn_text {	
+	color:white !important;
+}
+.qiwibtn:active .qiwibtn_icon span {	
+	background:transparent url(images/qiwi_logo_white.png) no-repeat;
+}
